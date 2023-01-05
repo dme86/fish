@@ -10,6 +10,10 @@ function sudo
     end
 end
 
+alias v nvim
+alias vi nvim
+alias vim nvim
+
 function ..
     cd ..
 end
