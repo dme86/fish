@@ -15,6 +15,7 @@ alias vi nvim
 alias vim nvim
 
 fish_add_path (go env GOPATH)/bin
+fish_add_path /opt/local/bin
 
 function ..
     cd ..
