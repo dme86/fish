@@ -16,6 +16,7 @@ alias vim nvim
 
 fish_add_path (go env GOPATH)/bin
 fish_add_path /opt/local/bin
+set -gx PATH $PATH $HOME/.krew/bin
 
 function ..
     cd ..
