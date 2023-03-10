@@ -15,6 +15,7 @@ My configuration uses [fzf](https://github.com/junegunn/fzf) as a fuzzy finder f
 After the installation, just delete everything under **`$HOME/.config/fish`** and clone this repo into it. 
 
 **Clone from this repo**
+
 Example:
 If you're *inside* **`.config/fish`** and it's empty use:
 
