@@ -1,34 +1,42 @@
 # fish shell
 
-[fish](https://github.com/fish-shell/fish-shell) is a smart command line shell for macOS, Linux, and the rest of the family. fish includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that just work, with no configuration required.
+[fish](https://github.com/fish-shell/fish-shell) is an intelligent command-line shell available for macOS, Linux, and other Unix-like operating systems. It offers several advanced features, such as syntax highlighting, interactive autosuggestions, and powerful tab completions, all without the need for extensive configuration.
 
-![enter image description here](https://i.imgur.com/AQFK1MP.png)
+![fish shell](https://i.imgur.com/AQFK1MP.png)
 
-## install
+## Installation
 
-My configuration uses [fzf](https://github.com/junegunn/fzf) as a fuzzy finder for your history.
+To install fish shell along with the fuzzy finder [fzf](https://github.com/junegunn/fzf), follow the instructions based on your operating system.
 
-### Arch 
+### Arch Linux
 
     pacman -S fish fzf
+    
+### macOS
 
-After the installation, just delete everything under **`$HOME/.config/fish`** and clone this repo into it. 
+    brew install fish fzf
+    
 
-**Clone from this repo**
+After the installation is complete, navigate to `$HOME/.config/fish` and remove all existing files and directories. Then, clone this repository into the `fish` directory.
 
-Example:
-If you're *inside* **`.config/fish`** and it's empty use:
+**Clone the repository**
+
+For example, if you are currently inside the `.config/fish` directory and it is empty, use the following command:
 
     git clone https://github.com/dme86/fish.git .
+    
 
+**Launch fish shell**
 
-**Execute fish**
+To start using fish shell, execute the following command:
 
     exec fish
-
+    
 
 #### Keybindings
 
-| Key | Description |
-|--|--|
+The following table lists some useful keybindings available in fish shell:
+
+| Key Combination | Description |
+|---|---|
 | `Ctrl/Strg + r` | Open fzf search. Close with `ESC` or `Ctrl/Strg + c` |
