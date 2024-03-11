@@ -15,7 +15,7 @@ alias vi nvim
 alias vim nvim
 
 fish_add_path /opt/local/bin
-set -gx GPT_TTY (tty)
+set -gx GPG_TTY (tty)
 
 function ..
     cd ..
